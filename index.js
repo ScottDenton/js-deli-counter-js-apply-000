@@ -8,12 +8,15 @@ function takeANumber (currentLine, name){
 
 
 function takeANumber(currentLine) {
-  var number =1;
   
-  function increase(){
+  var number = 1;
+    
+    
   var welcome = (`Welcome! You are number ${number}`)
+  currentLine.push(number)
   number ++;
-  }
+  
+  
   return welcome;
 }
 
