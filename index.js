@@ -5,13 +5,10 @@ function takeANumber (currentLine, name){
 }
 
 
-
+var number = 1;
 
 function takeANumber(currentLine) {
   
-  var number = 1;
-    
-    
   var welcome = (`Welcome! You are number ${number}`)
   currentLine.push(number)
   number ++;
