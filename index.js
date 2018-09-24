@@ -4,6 +4,30 @@ function takeANumber (currentLine, name){
   
 }
 
+
+
+
+function takeANumber(currentLine) {
+  var number =1;
+  
+  function increase(){
+  var welcome = (`Welcome! You are number ${number}`)
+  number ++;
+  }
+  return welcome;
+}
+
+// takeANumber(katzDeli) => "Welcome! You're ticket number #1" [1]
+// takeANumber(katzDeli) => "Welcome! You're ticket number #2" [1, 2]
+
+// nowServing(katzDeli) => "Currently serving: #1" [2]
+// nowServing(katzDeli) => "Currently serving: #2" []
+
+// takeANumber(katzDeli) => "Welcome! You're ticket number #3"
+
+
+
+
 function nowServing(currentLine){
   if(currentLine.length > 0){
     var serving = currentLine[0];
